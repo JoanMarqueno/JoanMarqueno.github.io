@@ -1,0 +1,109 @@
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario Contacto</title>
+	<link rel="icon" type="image/x-icon" href="Imagenes/favicon.png">
+ 	<link rel="stylesheet" type="text/css" href="css/estilo_contacto.css">
+</head>
+<body>
+	
+	<div class="container">
+		<div class="header">
+			<img src="imagenes/imagen1.png" alt="Imagen logo" width="200">
+			<nav>
+			<ul>
+				<li><a href="inicio.html">Inicio</a></li>
+				<li><a href="europa.html">Europa</a></li>
+				<li><a href="parques.html">Parques</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+			</nav>
+		</div>
+		<img src="imagenes/contacto.jpg"	alt="Imagen contacto" width="965">
+		<div class="row">
+			<div class="col">
+				<form action="formulario.php"  method="post">
+					<h2>Envianos tu consulta</h2>
+				<fieldset>
+				<legend>Datos usuario</legend>
+					<label for="name">Nombre</label>
+					<input type="text" id="name" name="nombre" value="" size="10"><br><br>
+					<label for="apellidos">Apellidos</label> 
+					<input type="text" id="apellidos" name="apellido" value=""><br><br>
+					<label for="date">Fecha Nacimiento</label>
+					<input type="date" id="date" name="nombre" value=""><br><br>
+					<label for="email">Introduce tu correo</label>
+					<input type="email" name="email" id="email" size="20" required><br><br>
+					<label for="telefono">Teléfono</label>
+					<input type="tel" id="telefono" name="telefono" size="9" maxlength="9">
+					<br>			
+				</fieldset>
+				<br>
+				<fieldset>
+				<legend>Intereses personales</legend><br>
+				<label for="Paquete">Viaje a escoger</label>
+				<select id="Paquete" name="Paquete">
+					  <option value="Sin preferencias" selected="selected">Sin preferencias</option>
+					  <option value="Europa">Europa</option>
+					  <option value="Parques">Parques</option>
+				</select>
+				<br><br>
+				<label for="informacion">Cuéntanos qué quieres saber </label> <br>
+				<textarea id="informacion" name="informacion" cols="50" rows="6"></textarea><br><br>
+				
+				</fieldset>
+				<br>
+				<input name="privacidad" type="checkbox" value="si" required>
+				<label id="privacidad">He leído y acepto la <a href="proteccion.html">Política de privacidad</a></label>
+				<br>
+				<input name="newsletter" type="checkbox" value="si">
+				<label id="newsletter">Sí, me gustaría suscribirme a la newsletter</label>
+				<br><br>
+				<input type="submit" id="enviar" name="enviar" value="Enviar datos">
+				<input type="reset" name="limpiar" id="reset" value="Borrar datos">
+				</form>
+			</div>
+
+			<div class= "col">
+				<h2>Nuestras redes sociales</h2>
+				<ul class="enlaces">
+					<li><a title="Instagram" href="https://www.instagram.com/"><img src="imagenes/insta.png" alt="Imagen instagram" width="50"></a></li>
+					<li><a title="Twitter" href="https://twitter.com/"><img src="imagenes/Twitter.png" alt="Imagen twitter" width="50"></a></li>
+					<li><a title="Facebook" href="https://es-es.facebook.com/"><img src="imagenes/facebook.png" alt="Imagen facebook" width="50"></a></li>
+				</ul>
+				<h2>Nuestras oficinas</h2>
+			<div class="bloque">
+				<div class="texto1">
+					<h5>BARCELONA</h5>
+					<p>C/ Barcelona N10</p>
+					<p>Bloque A</p>
+					<p>08054</p>
+					<p>Tlf: 6665544778</p>
+				</div>
+				<div class="mapa1">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3005.6522802407326!2d1.243759918450228!3d41.120284574625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a3fd2eed85f6a3%3A0x47308b4ab91cb9ef!2sInstitut%20Francesc%20Vidal%20i%20Barraquer!5e0!3m2!1ses!2ses!4v1669227340637!5m2!1ses!2ses" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>	
+			</div>
+			<br><br>
+				<div class="bloque2">
+					<div class="texto2">	
+						<h5>MADRID</h5>
+						<p>C/ Madrid N15</p>
+						<p>Puerta Principal</p>
+						<p>07855</p>
+						<p>Tlf: 6565554778</p>
+					</div>	
+					<div class="mapa2">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6074.512950623782!2d-3.689247113140628!3d40.4253194136512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422896d7454979%3A0x7cddcef5d728f5cd!2sPull%26Bear!5e0!3m2!1ses!2ses!4v1669227303252!5m2!1ses!2ses" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
