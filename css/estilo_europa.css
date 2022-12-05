@@ -1,0 +1,76 @@
+ 	body{
+ 		background: rgba(195, 179, 179, 0.626);
+ 	}
+ 	.container{
+ 		width:965px;
+ 		background: white;
+ 		margin-left: auto;
+ 		margin-right: auto;
+ 		height: 1000px;
+ 		font-family: "Ropa Sans", Sans-serif;
+ 	}
+ 	nav{
+ 		float:right;
+ 		margin-top: 10px;
+ 		margin-right: 5px;
+
+ 	}
+ 	.header img{
+ 		
+ 		margin-left: 10px;
+ 		margin-top: 10px;
+ 		width: 250px;
+ 	}
+ 	nav li{
+ 		display:inline-block;
+ 	}
+ 	nav a{
+ 		color:black;
+ 		text-decoration: none;
+ 		padding: 20px;
+ 		font-size: 20px;
+ 		font-weight: bold;
+ 	}
+ 	nav a:hover{
+ 		background: #4868a8;
+ 	}
+ 	nav ul{
+ 		display:inline-block;
+
+ 	}
+ 	section{
+ 		
+		padding: 40px;  
+ 		
+ 		}
+ 	section h1{
+ 		font-weight: bold;
+ 	}
+ 	
+ 	.titulo{
+ 		padding: 25px;
+ 		font-size: 15px;
+ 		text-align: center;
+ 		margin-left: auto;
+ 		margin-right: auto;
+ 		height: 50px;
+
+ 		
+ 	}
+ 	.col p{
+ 		font-size: 15px;
+
+ 	}
+ 	.col{
+ 		width: 265px;
+ 		display: inline-block;
+ 		vertical-align: top;
+ 		text-align: center;
+ 		padding: 20px;
+ 	}
+ 	.row{
+ 		text-align: center
+ 	}
+ 	.titulo h1{
+ 		text-align: center;
+ 	}

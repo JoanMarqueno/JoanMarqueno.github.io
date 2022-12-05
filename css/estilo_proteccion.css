@@ -1,0 +1,28 @@
+body{
+ 		background: rgba(195, 179, 179, 0.626);
+ 	}
+
+.container{
+
+ 		width:965px;
+ 		background: white;
+ 		margin-left: auto;
+ 		margin-right: auto;
+ 		height: 100%;
+ 		font-family: "Ropa Sans", Sans-serif;
+ 	}
+ 	
+.header img{
+ 		
+ 		margin-left: 10px;
+ 		margin-top: 10px;
+ 		width: 250px;
+ 	}
+ 	
+ section{
+ 		
+		padding: 30px;  
+
+ 		}
+ 	
+ 	
